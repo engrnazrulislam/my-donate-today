@@ -1,0 +1,43 @@
+/* Universal Selector */
+*{
+    margin:0;
+}
+/* Banner Style */
+.main-header{
+    background-color:gray;
+    background-image:url(../images/donation1.jpg);
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height:80%;
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-blend-mode: multiply;
+}
+.banner{
+    text-align: center;
+    padding:150px 400px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 800;
+    color:white;
+}
+.banner-text{
+    color:white;
+    padding:20px 0px;
+    font-weight: 400;
+    font-size:18px;
+}
+.btn-primary{
+    background-color: #FF5959;
+    padding: 16px 12px;
+    border: 1px;
+    color:white;
+    border-radius: 5px;
+    height: 56px;
+    width: 160px;
+    font-weight: 600;
+    font-size: 20px;
+    gap:8px;
+}
